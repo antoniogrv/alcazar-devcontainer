@@ -8,6 +8,7 @@
 *.ist
 *.txt
 *.acr
+*.pdf
 *.alg
 *.aux
 *.bbl
