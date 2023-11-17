@@ -11,7 +11,14 @@
 <a href="https://raw.githubusercontent.com/dpmj/alcazar/main/main.pdf">See PDF Preview</a></b>
 </p>
 
+This is a fork of the [alcazar LaTeX template by dpmj](https://github.com/dpmj/alcazar), which integrates the DevContainer technology in order to produce a complete TeX environment for local development. This is done thanks to the [qdm12/latexdevcontainer](https://github.com/qdm12/latexdevcontainer/tree/master) DevContainer settings, which were customized to include a couple of extra packages required for alcazar to compile properly.
 
+As for the requirements, just need [Docker](https://www.docker.com/products/docker-desktop), [Docker Compose](https://docs.docker.com/compose/install/), [Visual Studio Code](https://code.visualstudio.com/download) and the [DevContainer Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers), as noted in the [qdm12/latexdevcontainer README](https://github.com/qdm12/latexdevcontainer/tree/master#requirements).
+
+You can then fork and clone this repository (preferibly using [fine-grained personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), otherwise you won't be able to push your commits; i.e. `git clone https://<token>@github.com/antoniogrv/alcazar-devcontainer.git`) and start writing. Editing TeX files wit
+
+<details>
+<summary> Original Alcazar README </summary>
 ## Philosophy
 
 - KISS.
@@ -234,4 +241,4 @@ This work is unrelated to any institution, and the references, logos and the lik
 
 - For the two-column table of contents `minitoc` is used, which seems to be abandoned.
 
-
+</details>
