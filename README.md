@@ -2,10 +2,6 @@
 <img src="figures/examples/alcazar-title.jpg" width="100%"/>
 </p>
 
-<p align="center">
-<img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" height="24px"/>
-</p>
-
 
 <p align="center"><b>
 <a href="https://raw.githubusercontent.com/dpmj/alcazar/main/main.pdf">See PDF Preview</a></b>
@@ -13,12 +9,15 @@
 
 This is a fork of the [alcazar LaTeX template by dpmj](https://github.com/dpmj/alcazar), which integrates the DevContainer technology in order to produce a complete TeX environment for local development. This is done thanks to the [qdm12/latexdevcontainer](https://github.com/qdm12/latexdevcontainer/tree/master) DevContainer settings, which were customized to include a couple of extra packages required for alcazar to compile properly.
 
-As for the requirements, just need [Docker](https://www.docker.com/products/docker-desktop), [Docker Compose](https://docs.docker.com/compose/install/), [Visual Studio Code](https://code.visualstudio.com/download) and the [DevContainer Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers), as noted in the [qdm12/latexdevcontainer README](https://github.com/qdm12/latexdevcontainer/tree/master#requirements).
+As for the requirements, you just need [Docker](https://www.docker.com/products/docker-desktop), [Docker Compose](https://docs.docker.com/compose/install/), [Visual Studio Code](https://code.visualstudio.com/download) and the [DevContainer Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers), as noted in the [qdm12/latexdevcontainer README](https://github.com/qdm12/latexdevcontainer/tree/master#requirements).
 
-You can then fork and clone this repository (preferibly using [fine-grained personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), otherwise you won't be able to push your commits; i.e. `git clone https://<token>@github.com/antoniogrv/alcazar-devcontainer.git`) and start writing. Editing TeX files wit
+You can then fork and clone this repository (preferibly using [fine-grained personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), otherwise you won't be able to push your commits; i.e. `git clone https://<token>@github.com/antoniogrv/alcazar-devcontainer.git`) and start writing. Editing TeX files will output a PDF file in the root directory.
+
+Please refer to the [qdm12/latexdevcontainer repository](https://github.com/qdm12/latexdevcontainer/tree/master#requirements) for advanced customization settings.
 
 <details>
 <summary> Original Alcazar README </summary>
+
 ## Philosophy
 
 - KISS.
